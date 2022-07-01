@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+.game{
+    width: 100vw;
+    height: 100vh;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000); 
+    background: linear-gradient(to right, #434343, #000000); 
+    position: relative;
+    overflow: hidden;
+}
+
+#ball{
+   height: 30px;
+   width :30px;
+   background-color: yellow;
+   position: absolute;
+   border-radius: 50%;
+}
+
+.paddle{
+    width: 20%;
+    height: 1rem;
+    background-color: red; 
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+#paddle-top{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#paddle-bottom{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.naming{
+    font-size: 0.7rem;
+}
